@@ -1,0 +1,108 @@
+body{background-color: pink;}
+
+img{
+    border: 5px solid powderblue;
+    height: auto;
+    max-width: 30%;
+    margin-left: 35%;
+}
+
+h1{
+    color:darkslateblue;
+    font-family: verdana;
+    font-size: 200%;
+    text-align: center;
+}
+
+h2{ 
+    font-family: verdana;
+    font-size: 100%;
+    text-align: center;
+}
+
+h3{
+    color:darkslateblue;
+    font-family: verdana;
+    font-size: 200%;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    background-color: #0056b3;
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event {
+    position: relative;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid #333;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.event::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2%;
+    width: 2px;
+    height: 100%;
+    background-color: #333;
+    transform: translateX(-50%);
+}
+
+.date {
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 5px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  
+  .skills button {
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .skills button:hover {
+    background-color: lightblue;
+  }
+  
+  .skills button:focus {
+    outline: none;
+  }
